@@ -15,7 +15,7 @@ body {
 }
 
 .main-container {
-    width: 55%;
+    width: 90%;
     max-width: 400px;
     padding: 10px;
 }
@@ -27,7 +27,7 @@ body {
     -webkit-backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 25px;
-    padding: 1% 50px;
+    padding: 40px 30px;
     text-align: center;
     color: white;
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
@@ -127,6 +127,9 @@ body {
 
 @media (max-width: 480px) {
     .bordertransparente {
-        padding: 40px 20px;
+        padding: 30px 20px;
+    }
+    .welcome-title {
+        font-size: 1.8rem;
     }
 }
