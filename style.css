@@ -18,7 +18,7 @@ body {
     width: 90%;
     max-width: 400px;
     padding: 10px;
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 
@@ -125,6 +125,15 @@ body {
     transform: scale(1.02);
 }
 
+@media (max-width: 600px) {
+    .nav ul {
+        padding: 10px 5px; /* Reduce el espacio arriba y abajo */
+    }
+    .nav a {
+        padding: 8px 10px; /* Reduce el espacio entre palabras */
+        font-size: 14px;    /* Letra un poco más pequeña para que quepa */
+    
+    } }
 /* Estilo para el contenedor del menú */
 .nav {
     width: 100%;
