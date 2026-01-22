@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-jose</title>
+    <link rel="shortcut icon" href="icons8-contraseña-100.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Nosotros</a></li>
+      <li><a href="#">Servicios</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+
+
+    <main class="main-container">
+        <section class="bordertransparente">
+            <header>
+                <h1>Login</h1> <br>
+                <img src="icon uasuario.jpg" alt="User Icon" class="user-icon-large">
+                <h2 class="welcome-title">Bienvenid@</h2>
+            </header>
+
+            <form action="#">
+                <div class="input-group">
+                    <label>Correo</label>
+                    <input type="email" id="email" name="email" autocomplete="email" placeholder="Correo Electronico" required>
+                </div> <br>
+                
+                <div class="input-group">
+                    <label>Contraseña</label>
+                    <div class="password-container">
+                        <input type="password" autocomplete="new-password" placeholder="Contraseña" required>
+                        <i class="fas fa-eye eye-decoration"></i>
+                    </div>
+                </div> <br>
+                
+                <button type="submit" class="btn-submit">Iniciar Sesión</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
